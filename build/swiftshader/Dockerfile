@@ -9,7 +9,7 @@
 # Run the image and mount the current directory:
 #   docker run -it -v `pwd`:/trees/filament -t ssfilament
 
-FROM ubuntu:focal
+FROM ubuntu:groovy-20210416
 WORKDIR /trees
 ARG DEBIAN_FRONTEND=noninteractive
 ENV SWIFTSHADER_LD_LIBRARY_PATH=/trees/swiftshader/build
